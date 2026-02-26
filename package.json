@@ -1,0 +1,27 @@
+{
+  "name": "andriis-portfolio",
+  "version": "1.0.0",
+  "homepage": "https://andrii-avranmenko.github.io/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrii-Avramenko/andrii-avramenko.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "sass": "^1.97.3"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
