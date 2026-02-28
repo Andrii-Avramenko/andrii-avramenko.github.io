@@ -11,15 +11,15 @@
     "url": "git+https://github.com/Andrii-Avramenko/andrii-avramenko.github.io.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrii Avramenko",
   "license": "ISC",
-  "description": "",
+  "description":  "Projects that made or contributed Andrii Avramenko",
   "dependencies": {
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.6.0",
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4",
     "parcel-reporter-clean-dist": "^1.0.4",
     "sass": "^1.97.3"
   },
