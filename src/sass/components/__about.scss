@@ -1,0 +1,25 @@
+.about {
+    padding: 100px 0;
+}
+
+.about-langs {
+    display: flex;
+    justify-content: space-between;
+
+    svg, img {
+        width: auto;
+        height: 200px;
+        filter: drop-shadow(0 0 20px var(--svgGlow));
+    }
+
+    img {
+        width: 200px;
+        border-radius: 48px;
+    }
+}
+
+.about-title {
+    padding-top: 80px;
+    text-align: center;
+    color: $accent-color;
+}

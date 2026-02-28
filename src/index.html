@@ -12,7 +12,7 @@
     <meta property="og:url" content="https://andrii-avramenko.github.io/">
     <meta property="og:type" content="profile">
 
-    <title>Andrii Avramenko</title>
+    <title>Andrii Avramenko — Portfolio</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chiron+GoRound+TC&family=Inter:opsz,wght@14..32,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
   </head>
   <body>
     <section class="hero">
@@ -36,7 +37,18 @@
       </div>
     </section>
     <section class="about">
-      <div class="container"></div>
+      <div class="container">
+        <div class="about-langs">
+          <svg class="about-html" style="--svgGlow: #F16529">
+            <use href="./images/symbol-defs.svg#icon-html"></use>
+          </svg>
+          <svg class="about-sass" style="--svgGlow: #CD6799">
+            <use href="./images/symbol-defs.svg#icon-sass"></use>
+          </svg>
+          <img src="./images/js-logo.png" alt="JavaScript logo" class="about-js" style="--svgGlow: #F7DF1D">
+        </div>
+        <p class="about-title">Front-end developer</p>
+      </div>
     </section>
     <script type="module" src="./script.js"></script>
   </body>
