@@ -1,0 +1,51 @@
+.projects {
+  position: relative;
+  font-family: $projectsFont;
+  color: $ink-color;
+  background-color: white;
+}
+
+.projects-title {
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projects-item {
+  padding: 21px 21px 40px;
+  border: 1px solid $ink-color;
+  border-radius: 40px;
+}
+
+.projects-thumbnail {
+    width: 236px;
+    height: 160px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.projects-name {
+  font-size: 36px;
+}
+
+.projects-links {
+  list-style: disc inside;
+  font-size: 36px;
+  color: #ed3386;
+
+  a {
+    text-decoration: underline;
+    &:link,
+    &:visited {
+      color: inherit;
+    }
+  }
+}
