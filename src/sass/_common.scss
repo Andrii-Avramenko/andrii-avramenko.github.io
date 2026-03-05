@@ -1,4 +1,4 @@
-@import '~node_modules/modern-normalize/modern-normalize.css';
+@import "~node_modules/modern-normalize/modern-normalize.css";
 
 .container {
   max-width: $mobile;
@@ -6,7 +6,6 @@
   margin-left: auto;
   margin-right: auto;
   padding: 50px 0;
-
 
   @media screen and (min-width: $tablet) {
     width: $tablet;
@@ -26,5 +25,18 @@ body {
   line-height: 1.5;
   font-size: 48px;
   color: $white-color;
-  background-color: #0E21A0;
+  background-color: #0e21a0;
+}
+
+.animate {
+  opacity: 0;
+  transform: translateY(32px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

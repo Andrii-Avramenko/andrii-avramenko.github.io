@@ -11,8 +11,12 @@ const lenis = new Lenis({
   autoRaf: true
 });
 
+lenis.on('scroll', (e) => {
+  console.log(e.targetScroll);
+});
+
 projects.projects.forEach((project) => {
-  let markup = `<li class="projects-item">
+  let markup = `<li class="projects-item animate">
               <img src="${project.thumbnail == true ? project.thumbnail : placeholderImage}" alt="Project thumbnail" class="projects-thumbnail">
               <p class="projects-name">${project.name}</p>
               <p class="projects-time">${new Date(
@@ -29,3 +33,13 @@ projects.projects.forEach((project) => {
             </li>`;
   projectsList.insertAdjacentHTML("beforeend", markup);
 });
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.3 });
+
+document.querySelectorAll('.animate').forEach(el => observer.observe(el));

@@ -3,6 +3,7 @@
   font-family: $projectsFont;
   color: $ink-color;
   background-color: #EBECF0;
+  cursor: url("../images/cursors/projects-default.png"), default;
   
   .container {
     padding-top: 0;
@@ -48,6 +49,15 @@
   padding: 21px 21px 40px;
   border: 1px solid $ink-color;
   border-radius: 40px;
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease,
+    box-shadow 0.5s ease;
+
+  &:hover {
+    box-shadow: #00000051 0 10px 0;
+    transform: translateY(-10px);
+  }
 }
 
 .projects-thumbnail {
@@ -75,6 +85,7 @@
   color: #ed3386;
 
   a {
+    cursor: url("../images/cursors/projects-pointer.png"), pointer;
     text-decoration: underline;
     text-underline-offset: 3px;
     text-decoration-thickness: 2px;
