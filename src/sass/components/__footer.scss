@@ -1,15 +1,29 @@
 .footer {
   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 150px 0 50px;
+
+    @media screen and (min-width: $tablet) {
+      align-items:start;
+  }
   }
 }
 
 .footer-title {
-  font-size: 64px;
-  line-height: 74px;
+  display: block;
+  font-size: 48px;
+  line-height: 58px;
   text-transform: uppercase;
   color: $accent-color;
   margin-bottom: 60px;
+  text-align: center;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 64px;
+    text-align: left;
+  }
 }
 
 .footer-email {
@@ -25,14 +39,19 @@
 
   &:hover,
   &:focus {
-      color: #f69ed4;
+    color: #f69ed4;
   }
 }
 
 .footer-icons {
   display: flex;
   gap: 41px;
-  margin-top: 60px;
+  margin: 60px auto 0;
+  width: fit-content;
+
+  @media screen and (min-width: $tablet) {
+    margin: 60px 0 0;
+  }
 }
 
 .footer-icon {

@@ -11,38 +11,63 @@
 .hero-card {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    width: 480px;
-    height: 280px;
+    margin: 0 auto;
+    width: 320px;
+    height: 220px;
     border-radius: 48px;
     overflow: hidden;
     text-align: center;
     background-color: #F0EED9;
     transform: rotate(-12deg);
+
+    @media screen and (min-width: $tablet) {
+        width: 480px;
+        height: 280px;
+        margin-right: 0;
+    }
 }
 
 .hero-hello {
     background-color: #FF5A45;
     width: 100%;
-    padding: 12px 0 2px;
+    padding: 8px 0 2px;
     font-family: 'Inter';
+
+    @media screen and (min-width: $tablet) {
+        padding-top: 12px;
+    }
 }
 
 .hero-text {
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 36px;
+    line-height: 46px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 48px;
+        line-height: 58px;
+    }
 }
 
 .hero-subtext {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 19px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
 .hero-name {
     margin: 0 auto;
     width: 236px;
     font-family: $projectsFont;
-    font-size: 64px;
-    line-height: 81px;
+    font-size: 48px;
+    line-height: 65px;
     color: #656565;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 64px;
+        line-height: 81px;
+    }
 }
