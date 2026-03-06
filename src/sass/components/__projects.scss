@@ -3,7 +3,6 @@
   font-family: $projectsFont;
   color: $ink-color;
   background-color: #EBECF0;
-  cursor: url("../images/cursors/projects-default.png"), default;
   
   .container {
     padding-top: 0;
@@ -85,14 +84,19 @@
   color: #ed3386;
 
   a {
-    cursor: url("../images/cursors/projects-pointer.png"), pointer;
     text-decoration: underline;
     text-underline-offset: 3px;
     text-decoration-thickness: 2px;
+    transition: color 0.5s ease;
+
 
     &:link,
     &:visited {
       color: inherit;
+    }
+
+    &:hover, &:focus{
+      color: #c12068;
     }
   }
 }
