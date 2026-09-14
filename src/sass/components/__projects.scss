@@ -15,7 +15,7 @@
     right: 0;
     width: 100%;
     height: 184px;
-    background-image: url(../images/projects/torn-paper.png);
+    background-image: url(../images/torn-paper.png);
     background-repeat: repeat-x;
     background-size: auto 100%;
   }
@@ -54,7 +54,7 @@
     box-shadow 0.5s ease;
 
   &:hover {
-    box-shadow: #00000051 0 10px 0;
+    box-shadow: #00000051 0 10px 10px;
     transform: translateY(-10px);
   }
 }

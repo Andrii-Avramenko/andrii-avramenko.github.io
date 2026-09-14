@@ -1,40 +1,47 @@
 {
     "projects": [
         {
+            "name": "Daily Forecast",
+            "lastUpdated": "2026-09-04",
+            "thumbnail": "/projects/daily_forecast.png",
+            "activePage": "https://andrii-avramenko.github.io/dailyForecast",
+            "sourceCode": "https://github.com/Andrii-Avramenko/dailyForecast"
+        },
+        {
             "name": "Event Booster",
             "lastUpdated": "2026-02-12",
-            "thumbnail": "",
+            "thumbnail": "/projects/event_booster.png",
             "activePage": "https://andrii-avramenko.github.io/events-project",
             "sourceCode": "https://github.com/Andrii-Avramenko/events-project"
         },
         {
             "name": "Coding Magic",
             "lastUpdated": "2025-08-19",
-            "thumbnail": "",
+            "thumbnail": "/projects/coding_magic.png",
             "activePage": "https://andrii-avramenko.github.io/coding-magic",
             "sourceCode": "https://github.com/Andrii-Avramenko/coding-magic"
         },
         {
             "name": "Ice Cream",
             "lastUpdated": "2025-02-25",
-            "thumbnail": "",
+            "thumbnail": "/projects/ice_cream.png",
             "activePage": "https://andrii-avramenko.github.io/ice-cream",
             "sourceCode": "https://github.com/Andrii-Avramenko/ice-cream"
         },
         {
             "name": "Web studio",
             "lastUpdated": "2025-03-06",
-            "thumbnail": "",
+            "thumbnail": "/projects/webstudio.png",
             "activePage": "https://andrii-avramenko.github.io/WebStudio-SCSS",
             "sourceCode": "https://github.com/Andrii-Avramenko/WebStudio-SCSS"
         },
         {
             "name": "York Parks",
             "lastUpdated": "2025-02-05",
-            "thumbnail": "",
+            "thumbnail": "/projects/york_parks.png",
             "activePage": "https://andrii-avramenko.github.io/york-parks",
             "sourceCode": "https://github.com/Andrii-Avramenko/york-parks"
         } 
     ],
-    "lastUpdated": "2026-03-04T17:50:00"
+    "lastUpdated": "2026-09-14T20:29:38"
 }

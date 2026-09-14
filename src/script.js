@@ -17,7 +17,7 @@ lenis.on('scroll', (e) => {
 
 projects.projects.forEach((project) => {
   let markup = `<li class="projects-item animate">
-              <img src="${project.thumbnail == true ? project.thumbnail : placeholderImage}" alt="Project thumbnail" class="projects-thumbnail">
+              <img src="${!project.thumbnail ? placeholderImage : project.thumbnail}" alt="Project thumbnail" class="projects-thumbnail">
               <p class="projects-name">${project.name}</p>
               <p class="projects-time">${new Date(
                 project.lastUpdated,
