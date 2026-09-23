@@ -45,9 +45,9 @@
 }
 
 .projects-item {
-  padding: 21px 21px 40px;
+  padding: 20px 20px 40px;
   border: 1px solid $ink-color;
-  border-radius: 40px;
+  border-radius: 35px;
   transition:
     opacity 0.5s ease,
     transform 0.5s ease,
@@ -98,5 +98,21 @@
     &:hover, &:focus{
       color: #c12068;
     }
+  }
+}
+
+.github {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-image: url('../images/github.svg');
+    background-repeat: no-repeat;
   }
 }
